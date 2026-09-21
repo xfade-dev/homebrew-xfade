@@ -1,18 +1,18 @@
 class Xfade < Formula
   desc "Route AI providers for Claude Code / Codex / OpenCode / Pi / Oh My Pi / Aider / Cline, with local proxy"
   homepage "https://xfade.dev"
-  version "0.8.0"
+  version "0.8.1"
   license "MIT OR Apache-2.0"
 
   # This formula belongs to the standalone tap repo homebrew-xfade; the url/sha256 below are updated after each release.
   on_macos do
     on_arm do
-      url "https://github.com/xfade-dev/xfade/releases/download/v0.8.0/xfade-aarch64-apple-darwin.tar.gz"
-      sha256 "159c0756b2b1d2885e1ac8fd1eee0a840b424b8424dfbbd9f12eeac50768598e"
+      url "https://github.com/xfade-dev/xfade/releases/download/v0.8.1/xfade-aarch64-apple-darwin.tar.gz"
+      sha256 "535191d6f3338f470e07ce238449708bdb79866390d00c8ab1434d9b30fb084b"
     end
     on_intel do
-      url "https://github.com/xfade-dev/xfade/releases/download/v0.8.0/xfade-x86_64-apple-darwin.tar.gz"
-      sha256 "366ec50f0fd8c71617ff34225b56a375aece960e00d8220cea5cf6b8173af6a4"
+      url "https://github.com/xfade-dev/xfade/releases/download/v0.8.1/xfade-x86_64-apple-darwin.tar.gz"
+      sha256 "763106d0861970f4bef3ca2f2d8620491b167b7e31634d3960eecfc4e02c554d"
     end
   end
 
